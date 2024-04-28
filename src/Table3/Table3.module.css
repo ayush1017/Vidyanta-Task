@@ -1,0 +1,37 @@
+div {
+    overflow-x: auto;
+  
+    
+  }
+  @media screen and (min-width:480px){
+    .thead{
+        overflow: hidden;
+    }
+    
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+   /* .sticky{
+    
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    
+  }
+   */
+  tr:hover {
+    background-color: #f2f2f2;
+  }

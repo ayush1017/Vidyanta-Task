@@ -1,0 +1,40 @@
+/* .tab{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+
+
+}
+
+.tab2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+
+}
+tbody{
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+tr{
+    border: 0.5px;
+} */
+
+/* .App {
+    text-align: center;
+  } */
+  
+  .tab {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .tab2 {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }

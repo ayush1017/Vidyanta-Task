@@ -1,0 +1,58 @@
+/* div {
+    overflow-x: auto;
+  
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow-y: scroll;
+  
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+   .sticky{
+    
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  } */
+
+  .div {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .th {
+    position: sticky;
+    left: 0;
+    background-color: white; /* Adjust as needed */
+    z-index: 2; /* Ensure it's above the other cells */
+  }
+  
+  .th + .th,
+  .td + .td {
+    background-color: white; /* Adjust as needed */
+  }
+  
+  .tbody tr:hover .td {
+    background-color: #f0f0f0; /* Adjust as needed */
+  }
